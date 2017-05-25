@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item1"
+        android:title="FIESTA THE COFFEE SHOP"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="DREAM LAND, TIVOLI"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="PARADISE"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="CHENNAI SHOPPING MALL"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title=" CAFÉ COFFEE DAY"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="24 HRS COFFEE SHOP"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title=" NANKING"/>
+
+    <item
+        android:id="@+id/item8"
+        android:title="DOMINOS"/>
+
+    <item
+        android:id="@+id/item9"
+        android:title=" PARADE GROUND"/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="HERITAGE FRESH"/>
+
+
+
+</menu>

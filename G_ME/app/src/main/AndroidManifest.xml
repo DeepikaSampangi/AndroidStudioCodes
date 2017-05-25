@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.deepika.sampangi.g_me">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".happy"
+            android:label="G-ME     HAPPY"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".relaxed"
+            android:label="G-ME     RELAXED"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".exhausted"
+            android:label="G-ME     EXHAUSTED"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SelfTime"
+            android:label="SPEND TIME WITH YOURSELF"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PokeFrnd"
+            android:label="POKE YOUR FRIEND"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HIntrstFacts"
+            android:label="INTERESTING FACTS"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Shopping"
+            android:label="SHOP"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SetGoals"
+            android:label="SET GOALS"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RIntrstFacts"
+            android:label="INTERESTING FACTS"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Music"
+            android:label="MUSIC"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Food"
+            android:label="FOOD"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Excercise"
+            android:label="EXCERCISE"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".playfulclass"
+            android:label="G-ME PLAYFUL"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity
+            android:name=".moreplayful"
+            android:label="GET MORE PLAYFUL"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity
+            android:name=".playfulfacts"
+            android:label="KNOW FACT ABOUT BEING PLAYFUL"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".angryclass"
+            android:label="G-ME ANGRY"></activity>
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity
+            android:name=".helpme1class"
+            android:label="HELP ME" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity
+            android:name=".calmclass"
+            android:label="CHANGE YOUR MOOD" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity
+            android:name=".angryfactsclass"
+            android:label="WHAT IS IT LIKE BEING ANGRY" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity
+            android:name=".sadclass"
+            android:label="G-ME SAD" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity
+            android:name=".sadhelpclass"
+            android:label="CHNAGE YOUR MOOD" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity
+            android:name=".sadfactsclass"
+            android:label="FACTS OF BEING SAD" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity android:name=".Hangout"
+            android:label="HANG OUTS">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".To_do"
+            android:label="Click on menu to add task"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme.NoActionBar"
+           >
+
+
+        </activity>
+    </application>
+
+</manifest>

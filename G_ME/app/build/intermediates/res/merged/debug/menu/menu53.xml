@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item1"
+        android:title="THE COFFEE CUP"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="ASIAN RADHIKA"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title=" LEO’S FOOD COURT"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="VAYAPURI SHOPPING COMPLEX"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="CASABLANCA COFFEE"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="RELIANCE SUPER"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title=" LEOS FOOD COURT"/>
+
+    <item
+        android:id="@+id/item8"
+        android:title="SAI BABA TEMPLE"/>
+
+    <item
+        android:id="@+id/item9"
+        android:title="BOWL O CHINA"/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="INVOGUE"/>
+
+
+
+</menu>

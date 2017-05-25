@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.deepika.sampangi.g_me.sadclass"
+    android:background="#b9ee31">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView4"
+        android:fillViewport="false">
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+
+            <ImageButton
+                android:layout_width="308dp"
+                android:layout_height="131dp"
+                android:id="@+id/sadhelp"
+                android:src="@drawable/helpme"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/angryfbtn"
+                android:layout_toEndOf="@+id/angryfbtn"
+                android:background="#e6f2a0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="CHANGE YOUR MOOD"
+                android:id="@+id/textView63" />
+
+            <ImageButton
+                android:layout_width="354dp"
+                android:layout_height="150dp"
+                android:id="@+id/sadfactsbtn"
+                android:src="@drawable/inspire"
+                android:layout_alignTop="@+id/angryfbtn"
+                android:layout_toRightOf="@+id/angryfbtn"
+                android:layout_toEndOf="@+id/angryfbtn"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:background="#e6f2a0"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="INSPIRE YOUR SELF"
+                android:id="@+id/textView64" />
+
+            <ImageButton
+                android:layout_width="348dp"
+                android:layout_height="156dp"
+                android:id="@+id/hangoutbtn"
+                android:src="@drawable/landmark"
+
+
+
+                android:background="#e6f2a0"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="REFRESH YOU MIND HANGING OUT"
+                android:id="@+id/textView65" />
+
+            <ImageButton
+                android:layout_width="314dp"
+                android:layout_height="132dp"
+                android:id="@+id/musicbtn"
+                android:src="@drawable/headset"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+
+                android:background="#e6f2a0"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="LISTEN TO MUSIC"
+                android:gravity="center"
+                android:id="@+id/textView66" />
+
+
+        </TableLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>

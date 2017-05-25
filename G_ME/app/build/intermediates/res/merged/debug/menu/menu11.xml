@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item1"
+        android:title="KALYANI CINEMA HALL"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="PAKWAAN"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="GULF BAKERS"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="GANSHYAM SUPER MARKET"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="BATA SHOWROOM "/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="SEVEN TEMPLES "/>
+
+    <item
+        android:id="@+id/item7"
+        android:title="NATIONAL POINT CAFE "/>
+
+    <item
+        android:id="@+id/item8"
+        android:title="FASHION ZONE "/>
+
+    <item
+        android:id="@+id/item9"
+        android:title="REEBOK-BOWENPALLY "/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="TAAZA"/>
+
+
+
+</menu>

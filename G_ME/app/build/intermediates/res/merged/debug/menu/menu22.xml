@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item1"
+        android:title="FRESH N GROUND COFFEE SHOP"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="78 EAST"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="KALYANAM SHOPPING MALL"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title=" BARISTA"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="CAFÉ COFFEE DAY"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="HYDERABAD HOUSE"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title=" 78 DEGREES EAST"/>
+
+    <item
+        android:id="@+id/item8"
+        android:title="SUBWAY "/>
+
+    <item
+        android:id="@+id/item9"
+        android:title="SPENCERS"/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="KAKATIYA PARK"/>
+
+
+
+</menu>

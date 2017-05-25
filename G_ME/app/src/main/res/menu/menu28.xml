@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item1"
+        android:title="Sensation Sunshine Cinema Hall"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="Raymonds Showroom"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title=" Madhu Emporium"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="UPto75.com"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="Pizza Hut"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="Water Front"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title="Pizza Inn"/>
+
+    <item
+        android:id="@+id/item8"
+        android:title="Amogh Hotel"/>
+
+    <item
+        android:id="@+id/item9"
+        android:title="Amore Gelato"/>
+
+
+
+</menu>

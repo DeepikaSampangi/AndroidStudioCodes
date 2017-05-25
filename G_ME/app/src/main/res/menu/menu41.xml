@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item1"
+        android:title="CAFÉ COFFEE DAY"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title=" BARISTA"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="BIRYANI ART"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="ROHAN’S SAREE HOUSE"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="SREEJA SWEET SHOP"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="CANE SPLASH SHOP AND SPICY HUT"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title="9 RESTAURANT"/>
+
+    <item
+        android:id="@+id/item8"
+        android:title="SRI SIVA DURGA SAREE SHOP "/>
+
+    <item
+        android:id="@+id/item9"
+        android:title="HERITAGE FRESH"/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="SRI HANUMAN MANDIR"/>
+
+
+
+</menu>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.deepika.sampangi.g_me"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.deepika.sampangi.g_me.Splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.deepika.sampangi.g_me.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.deepika.sampangi.g_me.happy"
+            android:label="G-ME     HAPPY"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.deepika.sampangi.g_me.relaxed"
+            android:label="G-ME     RELAXED"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.deepika.sampangi.g_me.exhausted"
+            android:label="G-ME     EXHAUSTED"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.deepika.sampangi.g_me.SelfTime"
+            android:label="SPEND TIME WITH YOURSELF"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.deepika.sampangi.g_me.PokeFrnd"
+            android:label="POKE YOUR FRIEND"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.deepika.sampangi.g_me.HIntrstFacts"
+            android:label="INTERESTING FACTS"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.deepika.sampangi.g_me.Shopping"
+            android:label="SHOP"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.deepika.sampangi.g_me.SetGoals"
+            android:label="SET GOALS"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.deepika.sampangi.g_me.RIntrstFacts"
+            android:label="INTERESTING FACTS"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.deepika.sampangi.g_me.Music"
+            android:label="MUSIC"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.deepika.sampangi.g_me.Food"
+            android:label="FOOD"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.deepika.sampangi.g_me.Excercise"
+            android:label="EXCERCISE"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.deepika.sampangi.g_me.playfulclass"
+            android:label="G-ME PLAYFUL"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity
+            android:name="com.deepika.sampangi.g_me.moreplayful"
+            android:label="GET MORE PLAYFUL"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity
+            android:name="com.deepika.sampangi.g_me.playfulfacts"
+            android:label="KNOW FACT ABOUT BEING PLAYFUL"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.deepika.sampangi.g_me.angryclass"
+            android:label="G-ME ANGRY" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity
+            android:name="com.deepika.sampangi.g_me.helpme1class"
+            android:label="HELP ME" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity
+            android:name="com.deepika.sampangi.g_me.calmclass"
+            android:label="CHANGE YOUR MOOD" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity
+            android:name="com.deepika.sampangi.g_me.angryfactsclass"
+            android:label="WHAT IS IT LIKE BEING ANGRY" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity
+            android:name="com.deepika.sampangi.g_me.sadclass"
+            android:label="G-ME SAD" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity
+            android:name="com.deepika.sampangi.g_me.sadhelpclass"
+            android:label="CHNAGE YOUR MOOD" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity
+            android:name="com.deepika.sampangi.g_me.sadfactsclass"
+            android:label="FACTS OF BEING SAD" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity
+            android:name="com.deepika.sampangi.g_me.Hangout"
+            android:label="HANG OUTS" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.deepika.sampangi.g_me.To_do"
+            android:label="Click on menu to add task"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.deepika.sampangi.g_me.About"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+    </application>
+
+</manifest>

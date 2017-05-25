@@ -1,0 +1,97 @@
+Applications Graphics Acceleration Info:
+Uptime: 6843846 Realtime: 6843846
+
+** Graphics info for pid 16256 [com.deepika.sampangi.g_me] **
+
+Recent DisplayList operations
+          RestoreToCount
+  DrawRect
+  DrawDisplayList
+    Save
+    ClipRect
+    DrawDisplayList
+      DrawDisplayList
+        DrawDisplayList
+          DrawBitmapRect
+          DrawDisplayList
+            DrawRect
+            Save
+            ClipRect
+            Translate
+            DrawText
+            RestoreToCount
+          DrawDisplayList
+            DrawRect
+            DrawPatch
+            DrawPatch
+            DrawDisplayList
+              DrawDisplayList
+                Save
+                ClipRect
+                Translate
+                DrawText
+                RestoreToCount
+              DrawDisplayList
+                DrawRect
+                Save
+                ClipRect
+                Translate
+                DrawText
+                RestoreToCount
+            DrawDisplayList
+              DrawDisplayList
+                Save
+                ClipRect
+                Translate
+                DrawText
+                RestoreToCount
+              DrawDisplayList
+                DrawRect
+                Save
+                ClipRect
+                Translate
+                DrawText
+                RestoreToCount
+      DrawPatch
+    RestoreToCount
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache         12346660 / 25165824
+  LayerCache                  0 / 16777216
+  GradientCache               0 /   524288
+  PathCache                   0 /  4194304
+  CircleShapeCache            0 /  1048576
+  OvalShapeCache              0 /  1048576
+  RoundRectShapeCache         0 /  1048576
+  RectShapeCache              0 /  1048576
+  ArcShapeCache               0 /  1048576
+  TextDropShadowCache         0 /  2097152
+  FontRenderer 0         262144 /   262144
+Other:
+  FboCache                    0 /       16
+  PatchCache                 16 /      512
+Total memory usage:
+  12608804 bytes, 12.02 MB
+
+Profile data in ms:
+
+	com.deepika.sampangi.g_me/com.deepika.sampangi.g_me.MainActivity/android.view.ViewRootImpl@5406d0f8
+	com.deepika.sampangi.g_me/com.deepika.sampangi.g_me.relaxed/android.view.ViewRootImpl@541387ac
+	com.deepika.sampangi.g_me/com.deepika.sampangi.g_me.To_do/android.view.ViewRootImpl@53b99668
+View hierarchy:
+
+  com.deepika.sampangi.g_me/com.deepika.sampangi.g_me.MainActivity/android.view.ViewRootImpl@5406d0f8
+  28 views, 2.39 kB of display lists, 10 frames rendered
+
+  com.deepika.sampangi.g_me/com.deepika.sampangi.g_me.relaxed/android.view.ViewRootImpl@541387ac
+  23 views, 1.81 kB of display lists, 57 frames rendered
+
+  com.deepika.sampangi.g_me/com.deepika.sampangi.g_me.To_do/android.view.ViewRootImpl@53b99668
+  15 views, 1.48 kB of display lists, 13 frames rendered
+
+
+Total ViewRootImpl: 3
+Total Views:        66
+Total DisplayList:  5.68 kB
+

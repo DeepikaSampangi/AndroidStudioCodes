@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item1"
+        android:title=" Cover Up"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="Bogner"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="SWAGATH-DE-ROYAL  Monte Carlo"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="Mom n Me"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="SUBWAY"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="F Cafe Lounge"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title="Club 8"/>
+
+    <item
+        android:id="@+id/item8"
+        android:title="The Grand Four Seasons"/>
+
+    <item
+        android:id="@+id/item9"
+        android:title="Hadippa - the urban tadka"/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="Nakshatra"/>
+
+
+
+</menu>

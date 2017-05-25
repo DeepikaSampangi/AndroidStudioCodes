@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item1"
+        android:title="Grills And Gravies"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="Crumb Town"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="Hot Cakes"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="New Bangalore Iyengar Bakery"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="Hot Plate"/>
+
+
+
+
+</menu>

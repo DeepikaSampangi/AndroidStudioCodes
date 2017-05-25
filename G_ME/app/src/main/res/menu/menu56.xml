@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item1"
+        android:title="BITS AND BYTES"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="BIG CINEMAS LEONIA"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="PRAKRUTA-ALANKRITA RESORT"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="SHOPPING MARKET"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="STAR COFFEE SHOP"/>
+
+
+
+</menu>

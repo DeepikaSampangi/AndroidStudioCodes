@@ -1,0 +1,60 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.deepika.sampangi.g_me.Hangout">
+
+
+
+    <item
+        android:id="@+id/item1"
+        android:title="NAVRANG COFFEE"
+
+        />
+
+    <item
+        android:id="@+id/item2"
+        android:title="SANTOSH CINEMA HALL"/>
+
+    <item
+        android:id="@+id/item3"
+        android:title="GRAND HOTEL"/>
+
+    <item
+        android:id="@+id/item4"
+        android:title="SANALI MALL"
+
+        />
+
+    <item
+        android:id="@+id/item5"
+        android:title="CAFÉ COFFEE DAY"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="MCDONALD'S"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title="CAFE BAHAR"/>
+
+
+    <item
+        android:id="@+id/item8"
+        android:title="BLUE DIAMOND CHINESE RESTAURANT"/>
+
+
+    <item
+        android:id="@+id/item9"
+        android:title="RAMAKRISHNA THEATER"/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="TAJ MAHAL HOTEL"/>
+
+
+
+</menu>
+
+
+
+

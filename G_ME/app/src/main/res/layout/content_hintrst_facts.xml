@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.deepika.sampangi.g_me.HIntrstFacts"
+    tools:showIn="@layout/activity_hintrst_facts"
+    android:background="@drawable/intfacts">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FUN FACTS OF BEING HAPPY"
+        android:id="@+id/ff"
+        android:onClick="ff"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_x="82dp"
+        android:layout_y="44dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCIENTIFIC FACTS OF BEING HAPPY"
+        android:id="@+id/sf"
+        android:onClick="sf"
+        android:layout_below="@+id/ff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_x="56dp"
+        android:layout_y="87dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WORLD'S HAPPIEST FACTS"
+        android:id="@+id/wf"
+        android:onClick="wf"
+        android:layout_below="@+id/sf"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_x="78dp"
+        android:layout_y="128dp" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ENHANCE YOUR MOOD"
+        android:id="@+id/textView11"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffffff"
+        android:layout_x="-2dp"
+        android:layout_y="5dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="
+            Happiness is a life-long pursuit
+
+            Happiness is a choice
+
+            Happiness is a skill
+
+            Happiness is contagious
+
+            Happiness gets better with age"
+
+            android:id="@+id/textView80"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="177dp"
+            android:layout_x="0dp"
+            android:layout_y="197dp"
+            android:textColor="#ffffff" />
+
+
+    </AbsoluteLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

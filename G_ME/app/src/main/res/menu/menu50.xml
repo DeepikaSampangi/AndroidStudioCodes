@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    "+
+
+    "* \n\n"+
+
+    "* \n\n"+
+
+    "* \n\n"+
+
+    "*  \n\n"+
+
+    "*\n\n"+
+
+    "* \n\n"+
+
+    "\n\n"+
+
+    "* \n\n"+
+
+    "
+
+    <item
+        android:id="@+id/item1"
+        android:title=" Asian GPR Multiplex"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="S.S World Of Fashion"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="OUTLOOKS Fashions and Boutique"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="Swathi Fashions"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="Cherry's Fashion Designers and Ladies Tailor"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="Bakers Inn"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title="Sri Sai Raghavender Bakery"/>
+
+    <item
+        android:id="@+id/item8"
+        android:title="RK DABBA"/>
+
+    <item
+        android:id="@+id/item9"
+        android:title="'Jungle' The Restaurant "/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="Children's Park"/>
+
+
+
+</menu>

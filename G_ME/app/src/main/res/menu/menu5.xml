@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item1"
+        android:title="OVEN SECRETS"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title=" ASIAN CINEMAS"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="K CAFÉ AND LOUNGE"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="SWAGATH GRAND"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="MCUBE MALL"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="EESHWAR THEATRE"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title="WEST FACE"/>
+
+    <item
+        android:id="@+id/item8"
+        android:title="HOTEL RIVERIA GRAND"/>
+
+    <item
+        android:id="@+id/item9"
+        android:title="KRISH BEAUTY PARLOUR"/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="SPENCER'S HYPER MARKET"/>
+
+
+
+</menu>

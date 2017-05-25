@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.deepika.sampangi.g_me.sadfactsclass"
+    android:background="@drawable/sadinspiration">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:fillViewport="true"
+        android:nestedScrollingEnabled="true"
+        android:scrollIndicators="bottom|right">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewFlipper1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="
+   1) “Everything  that  surrounds you called life is made up of people , they were no smatter than you” Steve Jobs
+
+
+"
+            android:id="@+id/text1"
+            android:textSize="@dimen/abc_dialog_padding_material"
+            android:textColor="#fdfcfc" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="
+   2)'Be happy with what you have. Be excited about what you want.'' Alan Cohen
+
+
+
+
+
+
+
+
+"
+            android:id="@+id/textView28"
+
+            android:textSize="@dimen/abc_dialog_padding_material"
+            android:textColor="#fdfcfc"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="3)'Tension is who you think you should be, relaxation is who you are.' Chinese Proverb
+
+
+
+
+
+
+            "
+            android:id="@+id/textView29"
+            android:textSize="@dimen/abc_dialog_padding_material"
+            android:textColor="#fdfcfc"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="
+        'If you look to others for fulfillment, you will never be fulfilled. If your happiness depends on money, you will never be happy with yourself. Be content with what you have; rejoice in the way things are. When you realize there is nothing lacking, the world belongs to you.' Lao Tzu
+
+
+
+
+
+
+
+
+
+
+"
+
+            android:id="@+id/text2"
+
+            android:textSize="@dimen/abc_dialog_padding_material"
+            android:textColor="#fdfcfc"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="'If you start to think the problem is 'out there,' stop yourself. That thought is the problem.' Stephen Covey
+
+
+
+
+
+            "
+            android:id="@+id/textView30"
+            android:textSize="@dimen/abc_dialog_padding_material"
+            android:textColor="#fdfcfc"/>
+
+
+    </ViewFlipper>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sadlink1"
+                android:text="link1 to more advices"
+                android:onClick="browserinsplines"
+                android:background="@android:color/black"
+                android:textColor="#fefdfd"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="80dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

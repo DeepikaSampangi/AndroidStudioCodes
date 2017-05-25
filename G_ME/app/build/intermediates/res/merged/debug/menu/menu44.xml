@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item1"
+        android:title="Amba theatre"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="Asian cinemas M cube mall"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="Inox"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="Khadim's"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="Koutons Showroom"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="Funtoosh"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title="Anupama Restaurant"/>
+
+    <item
+        android:id="@+id/item8"
+        android:title="Meraj Cafe"/>
+
+    <item
+        android:id="@+id/item9"
+        android:title="Chandana Brothers Shopping MAll"/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="Peter England"/>
+
+
+
+</menu>

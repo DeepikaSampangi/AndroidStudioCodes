@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item1"
+        android:title="CAFÉ COFFEE DAY"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="CINEPOLIS"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title=" DOLPHIN BIRYANI HOUSE"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="ANUTEX"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="SAI RAM THEATRE"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title=" REDDY'S KITCHEN"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title=" RELIANCE FRESH"/>
+
+    <item
+        android:id="@+id/item8"
+        android:title="R S BROTHERS"/>
+
+    <item
+        android:id="@+id/item9"
+        android:title=" LOTUS HERBAL BEAUTY CLINIC"/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="DAYANANDA NAGAR MUNICIPAL PARK"/>
+
+
+
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item1"
+        android:title="Galaxy theatre"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="Brand Factory"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="Just Buddy Clothing Store"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="Mom and Me "/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="Mahesh Garments"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="McDonald's"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title=" Just bake "/>
+
+    <item
+        android:id="@+id/item8"
+        android:title="The Golden Season"/>
+
+    <item
+        android:id="@+id/item9"
+        android:title=" Kokam Kitchen"/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="Marwadi Chat and Panipuri"/>
+
+
+
+</menu>

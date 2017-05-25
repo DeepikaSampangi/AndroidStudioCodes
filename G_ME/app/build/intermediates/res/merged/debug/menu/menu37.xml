@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item1"
+        android:title="HiTech theatre"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="Hitech cinema hall"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="Neeru's Emporio"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="Fabindia"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="Shoppers Stop"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="Max Fashion"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title="Ginger Court  "/>
+
+    <item
+        android:id="@+id/item8"
+        android:title="Little Hut"/>
+
+    <item
+        android:id="@+id/item9"
+        android:title="C-Factor Coffee Shop"/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="JUST DONUTS"/>
+
+
+
+</menu>

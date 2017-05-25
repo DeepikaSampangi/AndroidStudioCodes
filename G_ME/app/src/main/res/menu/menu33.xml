@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item1"
+        android:title=" Arjun theatre"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="viswanath theatre"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title=" D Mart, Manjeera Trinity Mall"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="Cinepolis VIP"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="Spykar"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="Brand Factory"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title="Indian Spice Restaurant"/>
+
+    <item
+        android:id="@+id/item8"
+        android:title="Hyderabad Chef Restaurant"/>
+
+    <item
+        android:id="@+id/item9"
+        android:title="Sweet Magic Bakers AND Confectioners"/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="KS Bakers"/>
+
+
+
+</menu>

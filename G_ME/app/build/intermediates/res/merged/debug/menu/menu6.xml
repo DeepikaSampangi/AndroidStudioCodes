@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item1"
+        android:title="AROMA CUP RESTRO"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="ROYAL FAMILY DHABA AND RESTAURANT"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="KAVYA CURRIES ROTI AND BIRYANI POINT"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="BIG B FAMILY SHOWROOM"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="VASTRAANI ONLINE SAREE PORTAL"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="SAI DURGA HOTEL "/>
+
+    <item
+        android:id="@+id/item7"
+        android:title="LAKSHMIKALA SUPER MARKET "/>
+
+    <item
+        android:id="@+id/item8"
+        android:title="RAJU HAIR STYLS "/>
+
+    <item
+        android:id="@+id/item9"
+        android:title="RK'S FINGER MUNCH "/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="SRI NEW BANGALORE IYANGAR'S BAKERY"/>
+
+
+
+</menu>

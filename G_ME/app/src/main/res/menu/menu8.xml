@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item1"
+        android:title="CAFÉ COFFEE DAY"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="GAYATRI MULTIPLEX"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="GRAND SWAGATH"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="MAA GAYATRI PLAZA"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="HOTEL METRO"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="HOTEL ASHOKA KLAASIC "/>
+
+    <item
+        android:id="@+id/item7"
+        android:title="RELIANCE FRESH"/>
+
+    <item
+        android:id="@+id/item8"
+        android:title="STEP 'N' EAT BAKERS"/>
+
+    <item
+        android:id="@+id/item9"
+        android:title="NEW SEA WORLD CAFE"/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="ADIDAS"/>
+
+
+
+</menu>

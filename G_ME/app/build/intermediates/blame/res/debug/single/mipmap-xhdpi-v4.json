@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Lenovo\\AndroidStudioProjects\\G_Grnd\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Lenovo\\AndroidStudioProjects\\G_Grnd\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\AndroidStudioProjects\\G-ME_BASE_with_setGoals\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Lenovo\\AndroidStudioProjects\\G-ME_BASE_with_setGoals\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\AndroidStudioProjects\\G-ME\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Lenovo\\AndroidStudioProjects\\G-ME\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Lenovo\\AndroidStudioProjects\\G_ME_FINAL\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Lenovo\\AndroidStudioProjects\\G_ME_FINAL\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    }
+]

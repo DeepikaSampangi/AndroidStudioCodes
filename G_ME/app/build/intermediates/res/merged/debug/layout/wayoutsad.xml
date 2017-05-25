@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.deepika.sampangi.g_me.angryclass">
+
+
+
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <ViewFlipper
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:id="@+id/viewFlipper2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="        1)	If you’re feeling sad or depressed just get busy! The worst thing to do is sulk in your room and do nothing. Instead, go for a run in a park or sing your heart out. Wash your car or clean your house. Put your mind off of what’s bugging you, you’ll feel better                          "
+            android:id="@+id/text1"
+            android:textColor="#ffffff"
+            android:editable="false"
+            android:layoutDirection="locale"
+            android:textSize="@dimen/abc_dialog_padding_material" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="
+      2)	It works like magic, just force yourself to smile and soon enough you find things to laugh about. It can be pretty embarassing around other people, but try it out alone.
+
+
+
+
+
+
+
+
+
+
+      "
+
+        android:id="@+id/text2"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/abc_dialog_padding_material" />
+
+
+    </ViewFlipper>
+
+
+
+            <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sadlink1"
+
+        android:onClick="browsersadlink1"
+                android:src="@drawable/sad"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="58dp"
+                android:layout_marginStart="58dp"
+                android:layout_x="155dp"
+                android:layout_y="329dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sadlink2"
+                android:src="@drawable/sad"
+                android:onClick="browsersadlink2"
+                android:layout_alignParentBottom="true"
+
+
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_x="35dp"
+                android:layout_y="334dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ONLINE LINKS"
+            android:gravity="center"
+            android:id="@+id/textView40"
+            android:layout_x="2dp"
+            android:layout_y="295dp"
+            android:textColor="#ffffff" />
+
+
+    </AbsoluteLayout>
+
+
+</RelativeLayout>

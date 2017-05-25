@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item1"
+        android:title="Galaxy theatre"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="Play Boyz Casual Wear"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="Reebok "/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title=" LEE"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title=" ATTITUDE"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="Flying Machine"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title=" 4 Seasons Multi Cuisine Restaurant"/>
+
+    <item
+        android:id="@+id/item8"
+        android:title=" Hotel Rumaan"/>
+
+    <item
+        android:id="@+id/item9"
+        android:title="Adam's Victoria Resturant"/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="Subway"/>
+
+
+
+</menu>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.deepika.sampangi.g_me.PokeFrnd"
+    tools:showIn="@layout/activity_poke_frnd"
+    android:background="@drawable/pokebg">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/tw"
+        android:src="@drawable/tw"
+        android:onClick="tw"
+        android:layout_alignTop="@+id/fb"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_x="184dp"
+        android:layout_y="124dp" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/fb"
+        android:onClick="fb"
+        android:src="@drawable/f"
+        android:layout_below="@+id/textView10"
+        android:layout_toRightOf="@+id/tw"
+        android:layout_alignBottom="@+id/gm"
+        android:layout_x="184dp"
+        android:layout_y="203dp" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/gm"
+        android:src="@drawable/gm"
+        android:onClick="gm"
+        android:layout_below="@+id/textView9"
+        android:layout_toLeftOf="@+id/ms"
+        android:layout_toStartOf="@+id/ms"
+        android:layout_marginTop="121dp"
+        android:layout_x="109dp"
+        android:layout_y="203dp" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/ms"
+        android:onClick="ms"
+        android:src="@drawable/ms"
+        android:layout_alignTop="@+id/gm"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_x="109dp"
+        android:layout_y="124dp" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="AND ENHANCE YOUR MOOD"
+        android:id="@+id/textView10"
+        android:layout_above="@+id/ms"
+        android:layout_alignRight="@+id/ms"
+        android:layout_alignEnd="@+id/ms"
+        android:layout_x="-2dp"
+        android:layout_y="10dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Share with your friends"
+            android:textAlignment="center"
+            android:id="@+id/textView80"
+            android:layout_x="13dp"
+            android:layout_y="93dp"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capture your happy moment"
+            android:id="@+id/capbtn"
+            android:layout_x="65dp"
+            android:gravity="center"
+            android:layout_y="49dp" />
+
+
+    </AbsoluteLayout>
+    </ScrollView>
+
+</RelativeLayout>

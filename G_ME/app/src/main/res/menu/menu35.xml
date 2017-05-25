@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    "+
+
+    "* \n\n"+"* \n\n"+"*\n\n"+"* \n \n"+
+    "*
+
+    <item
+        android:id="@+id/item1"
+        android:title="BVK Multiplex Vijayalakshmi theatre"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="White House "/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="Laffaire"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="Sri Balaji Handlooms"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="Bliss Restaurant"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="Classic Ice Cream Parlour"/>
+
+
+
+</menu>

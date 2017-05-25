@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.deepika.sampangi.g_me.Food"
+    tools:showIn="@layout/activity_food"
+    android:background="@drawable/food">
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <ViewFlipper
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewFlipper2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/food2"
+            android:layout_below="@+id/viewFlipper2"
+            android:layout_toRightOf="@+id/viewFlipper2"
+            android:layout_toEndOf="@+id/viewFlipper2"
+            android:src="@drawable/food3" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/food3"
+            android:layout_below="@+id/viewFlipper2"
+            android:layout_toRightOf="@+id/viewFlipper2"
+            android:layout_toEndOf="@+id/viewFlipper2"
+            android:src="@drawable/food4" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/food0"
+            android:layout_below="@+id/viewFlipper2"
+            android:layout_toRightOf="@+id/viewFlipper2"
+            android:layout_toEndOf="@+id/viewFlipper2"
+            android:src="@drawable/food1" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/food1"
+            android:layout_below="@+id/viewFlipper2"
+            android:layout_toRightOf="@+id/viewFlipper2"
+            android:layout_toEndOf="@+id/viewFlipper2"
+            android:src="@drawable/food2" />
+    </ViewFlipper>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="CLICK TO FLIP"
+        android:id="@+id/textView67"
+        android:gravity="center"
+        android:layout_x="0dp"
+        android:layout_y="219dp"
+        android:textColor="#ffffff" />
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:text="look n coook"
+           android:id="@+id/textView19"
+           android:gravity="center"
+           android:background="#f80b0b"
+           android:layout_x="0dp"
+           android:layout_y="366dp" />
+
+           <ImageButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/yt"
+           android:src="@drawable/yt"
+           android:onClick="fyt"
+               android:layout_x="168dp"
+               android:layout_y="400dp" />
+
+       <ImageButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/imageButton5"
+           android:src="@drawable/zm"
+           android:onClick="zm"
+           android:layout_x="267dp"
+           android:layout_y="303dp" />
+
+       <ImageButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/imageButton4"
+           android:onClick="fs"
+           android:src="@drawable/fs"
+           android:layout_x="192dp"
+           android:layout_y="299dp" />
+
+       <ImageButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/imageButton3"
+           android:onClick="dpz"
+           android:src="@drawable/dpz"
+           android:layout_x="104dp"
+           android:layout_y="294dp" />
+
+       <ImageButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/imageButton2"
+           android:onClick="fp"
+           android:src="@drawable/fp"
+           android:layout_x="20dp"
+           android:layout_y="294dp" />
+
+       <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:text="ORDER ONLINE"
+       android:id="@+id/textView18"
+       android:gravity="center"
+       android:background="#ecd60d"
+           android:layout_x="5dp"
+           android:layout_y="264dp" />
+
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Simple online recipies"
+               android:id="@+id/button4"
+               android:onClick="orcp"
+               android:layout_x="102dp"
+               android:layout_y="472dp" />
+
+
+
+
+    </AbsoluteLayout>
+    </ScrollView>
+</AbsoluteLayout>

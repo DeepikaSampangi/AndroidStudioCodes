@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.deepika.sampangi.g_me.About"
+    tools:showIn="@layout/activity_about"
+    android:background="@drawable/bluebg">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/imageView4"
+            android:layout_x="100dp"
+            android:layout_y="0dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="G-ME "
+            android:id="@+id/textView71"
+            android:layout_x="0dp"
+            android:layout_y="112dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Guide-ME"
+            android:id="@+id/textView72"
+            android:layout_x="0dp"
+            android:layout_y="175dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="G-ME is a guiding application that gives its users the best possible suggestions and resources to enhance the users mood and improving the EQ of its user. It acts like a companion during users best and worst emotions and provides easy access to wide range of resources. "
+            android:id="@+id/textView73"
+            android:layout_x="0dp"
+            android:layout_y="198dp"
+            android:textColor="#ffffff" />
+
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="VERSION:1.0"
+        android:id="@+id/textView74"
+        android:gravity="center"
+        android:layout_x="0dp"
+        android:layout_y="136dp"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/textView75"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/design_tab_text_size" />
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="DEEPIKA SAMPANGI"
+        android:id="@+id/textView77"
+        android:gravity="center"
+        android:layout_x="6dp"
+        android:layout_y="360dp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="143dp"
+        android:layout_alignBottom="@+id/scrollView5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="@dimen/fab_margin" />
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="KOLLI HARIKA"
+    android:id="@+id/textView76"
+    android:layout_x="0dp"
+    android:gravity="center"
+    android:layout_y="340dp"
+    android:textColor="#ffffff"
+        android:layout_above="@+id/textView77"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="@dimen/fab_margin" />
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="DEVELOPERS:"
+    android:gravity="center"
+    android:id="@+id/textView75"
+    android:layout_x="0dp"
+    android:layout_y="320dp"
+    android:textColor="#ffffff"
+        android:textSize="@dimen/abc_text_size_body_2_material"
+        android:layout_above="@+id/textView76"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+
+    </AbsoluteLayout>
+    </ScrollView>
+
+</RelativeLayout>

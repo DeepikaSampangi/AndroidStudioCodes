@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item
+        android:id="@+id/item1"
+        android:title="GRILLS AND GRAVIES"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="RAM CHANDRA CINEMA HALL"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="JASMINE HOTEL"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="SRI ANDAL MIXTURE AND TIFFINS"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="RAGHAVENDRA THEATRE "/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="SHIVA TEMPLE"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title="MOHAN DHABA"/>
+
+    <item
+        android:id="@+id/item8"
+        android:title="MYTHRI CAFE "/>
+
+    <item
+        android:id="@+id/item9"
+        android:title="HOT PLATE"/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="BATA SHOW ROOM"/>
+
+
+
+</menu>

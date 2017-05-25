@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">\
+
+
+    <item
+        android:id="@+id/item1"
+        android:title="MOCHA"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="PVR"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="INOX"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="OHRI’S "/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="GVK MALL"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="CAFÉ CUBANO"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title="RELIANCE DIGITAL"/>
+
+    <item
+        android:id="@+id/item8"
+        android:title="THE OFEN"/>
+
+    <item
+        android:id="@+id/item9"
+        android:title="THE YELLOW CHILLI"/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="JAVED HABIB HAIR AND BEAUTY SALON"/>
+
+
+
+</menu>

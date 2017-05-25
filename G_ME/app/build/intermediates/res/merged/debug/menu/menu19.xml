@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item1"
+        android:title=" CAFÉ COFFEE DAY"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="CAFÉ SANDWICHO"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="KRISHNA PEARLS AND JEWELLERS"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="OCEAN PARK "/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="TREASURE ISLAND RESORTS PVT LTD"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="HANGOVER SPOT"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title="GANDIPET PARK"/>
+
+    <item
+        android:id="@+id/item8"
+        android:title="AMUL FAST FOODS"/>
+
+
+
+
+</menu>

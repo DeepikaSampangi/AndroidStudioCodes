@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item1"
+        android:title=" Sai Ranga theatre"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="Cine town "/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="Max"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title=" Exclamations"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title=" Balaji Fancy Readymade Store"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="Devi Hosiery And Sarees"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title="Torrance Baker`s"/>
+
+    <item
+        android:id="@+id/item8"
+        android:title="Sai's Bakers World"/>
+
+    <item
+        android:id="@+id/item9"
+        android:title="Itsy Bitsy Bakers"/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="Limra Bakery"/>
+
+
+
+</menu>

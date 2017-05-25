@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.deepika.sampangi.g_me.Music"
+    tools:showIn="@layout/activity_music"
+    android:background="@drawable/musicc">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView20"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:gravity="center"
+        android:text="
+Music is the peice of art that goes in the ears straight to the heart
+        "
+        android:textColor="#ffffff"
+        android:layout_x="11dp"
+        android:layout_y="9dp" />
+
+        <ImageButton
+            android:layout_width="107dp"
+            android:layout_height="91dp"
+            android:id="@+id/em"
+            android:layout_x="114dp"
+            android:layout_y="195dp"
+            android:src="@drawable/musicbn" />
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/gn"
+            android:layout_x="28dp"
+            android:onClick="gn"
+            android:layout_y="340dp"
+            android:src="@drawable/gn" />
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/sv"
+            android:onClick="sv"
+            android:layout_x="143dp"
+            android:layout_y="340dp"
+            android:src="@drawable/sv" />
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:onClick="sz"
+            android:id="@+id/sz"
+            android:layout_x="264dp"
+            android:layout_y="340dp"
+            android:src="@drawable/sz" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="PLAY MUSIC FROM DEVICE"
+            android:id="@+id/textView69"
+            android:gravity="center"
+            android:layout_x="2dp"
+            android:layout_y="140dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="PLAY MUSIC ONLINE"
+            android:id="@+id/textView70"
+            android:gravity="center"
+            android:layout_x="2dp"
+            android:layout_y="300dp"
+            android:textColor="#ffffff" />
+
+    </AbsoluteLayout>
+    </ScrollView>
+</RelativeLayout>

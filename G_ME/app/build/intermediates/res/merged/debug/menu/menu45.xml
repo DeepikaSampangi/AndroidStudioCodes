@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/item1"
+        android:title="GAS Jeans"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="E'lan Studio"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="VIBRANT "/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="Pick n Move"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title=" Lal Bawarchi Restaurant"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="Shanghai Fast Food "/>
+
+    <item
+        android:id="@+id/item7"
+        android:title="Iyengar Bakery"/>
+
+
+
+</menu>

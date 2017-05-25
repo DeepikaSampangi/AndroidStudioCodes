@@ -1,0 +1,31 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        53365050 com.deepika.sampangi.g_me/.MainActivity filter 53399810
+        533a20e8 com.deepika.sampangi.g_me/.happy filter 533a2190
+        533ef784 com.deepika.sampangi.g_me/.relaxed filter 533ef83c
+        53433fa8 com.deepika.sampangi.g_me/.exhausted filter 53434064
+        533981b0 com.deepika.sampangi.g_me/.hangout filter 534607c8
+ 
+Packages:
+  Package [com.deepika.sampangi.g_me] (53268f48):
+    userId=10051 gids=[]
+    sharedUser=null
+    pkg=Package{533a962c com.deepika.sampangi.g_me}
+    codePath=/data/app/com.deepika.sampangi.g_me-2.apk
+    resourcePath=/data/app/com.deepika.sampangi.g_me-2.apk
+    nativeLibraryPath=/data/app-lib/com.deepika.sampangi.g_me-2
+    versionCode=1
+    applicationInfo=ApplicationInfo{533a9678 com.deepika.sampangi.g_me}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    versionName=1.0
+    dataDir=/data/data/com.deepika.sampangi.g_me
+    targetSdk=23
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2016-03-09 05:52:11
+    firstInstallTime=2016-03-06 05:00:42
+    lastUpdateTime=2016-03-09 05:52:12
+    signatures=PackageSignatures{53268fac [5324f820]}
+    permissionsFixed=true haveGids=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    User 0:  installed=true stopped=false notLaunched=false enabled=0

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tacticstheme">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+
+        android:clickable="true"
+        android:contextClickable="true"
+        android:fillViewport="true"
+        android:nestedScrollingEnabled="true"
+        android:scrollIndicators="bottom|right">
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="
+        Scary tactics or humorous tactics can help you get more playful:
+                Here are some links that can help you make one
+
+
+
+
+
+                "
+                        android:textSize="@dimen/abc_dropdownitem_icon_width"
+                        android:layout_alignParentTop="true"
+                        android:textColor="#fefdfd"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click for funny tatics"
+                android:id="@+id/taticl1"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:onClick="browsertactic1"
+                android:layout_x="98dp"
+                android:layout_y="362dp"
+                android:background="#000000"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="more tactics"
+                android:id="@+id/tacticl2"
+                android:onClick="browsertactic2"
+                android:layout_marginTop="44dp"
+                android:layout_below="@+id/taticl1"
+                android:layout_centerHorizontal="true"
+                android:layout_x="128dp"
+                android:layout_y="277dp"
+                android:textColor="#ffffff"
+                android:background="#000000" />
+
+</AbsoluteLayout>
+        </ScrollView>
+
+
+</RelativeLayout>

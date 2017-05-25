@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:text="GOLDEN RULES"
+        android:id="@+id/textView38"
+        android:textColor="#D1B5EF"
+        android:layout_x="3dp"
+        android:layout_y="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="*Set goals that motivates you
+"
+        android:gravity="center"
+        android:id="@+id/textView"
+        android:textColor="#D1B5EF"
+        android:layout_x="5dp"
+        android:layout_y="85dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="*Set SMART Goals
+"
+        android:gravity="center"
+        android:id="@+id/textView39"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#D1B5EF"
+        android:layout_x="-12dp"
+        android:layout_y="173dp" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="*Set Specific Goals
+"
+        android:gravity="center"
+        android:id="@+id/textView41"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#D1B5EF"
+        android:layout_x="9dp"
+        android:layout_y="44dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="*Set Measurable Goals
+"
+        android:gravity="center"
+        android:id="@+id/textView42"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#D1B5EF"
+        android:layout_x="0dp"
+        android:layout_y="125dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="*Set Attainable Goals
+"
+        android:gravity="center"
+        android:id="@+id/textView43"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#D1B5EF"
+        android:layout_x="-16dp"
+        android:layout_y="221dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="*State each goal as a positive statement z"
+        android:gravity="center"
+        android:id="@+id/textView440"
+        android:textColor="#D1B5EF"
+        android:layout_x="1dp"
+        android:layout_y="435dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="*Be precise
+"
+        android:id="@+id/textView441"
+        android:textColor="#D1B5EF"
+        android:layout_x="0dp"
+        android:layout_y="376dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="*Keep operational goals small "
+        android:id="@+id/textView442"
+        android:textColor="#D1B5EF"
+        android:layout_x="1dp"
+        android:layout_y="323dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="*Set performance goals, not outcome goals
+"
+        android:id="@+id/textView443"
+        android:textColor="#D1B5EF"
+        android:layout_x="5dp"
+        android:layout_y="269dp" />
+
+
+    </AbsoluteLayout>
+    </ScrollView>
+
+</LinearLayout>

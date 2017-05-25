@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item1"
+        android:title=" Mom and Me"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="Zodiac "/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="Richie Rich"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="Passion Casuals and Formals"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="Reliance Trends"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="Pizza Hut"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title="Domino's Pizza"/>
+
+    <item
+        android:id="@+id/item8"
+        android:title="The Golkonda Hotel"/>
+
+    <item
+        android:id="@+id/item9"
+        android:title="Taj Banjara"/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="Paradise"/>
+
+
+
+</menu>

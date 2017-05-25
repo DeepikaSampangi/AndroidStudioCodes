@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item1"
+        android:title=" MINERVA COFFEE SHOP"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title=" CINEMAX, ASIAN CINEMAS"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="UNITED KITCHENS OF INDIA"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="SVM MALL"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="BEYOND COFFEE"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="SVM MALL"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title="VAC’S"/>
+
+    <item
+        android:id="@+id/item8"
+        android:title="MIRRORS"/>
+
+    <item
+        android:id="@+id/item9"
+        android:title="MORE"/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="SUBWAY"/>
+
+
+
+</menu>

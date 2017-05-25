@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.deepika.sampangi.g_me.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="@drawable/bluebg">
+
+
+
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+
+
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <ImageButton
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:id="@+id/hbtn"
+            android:src="@drawable/hbtn"
+            android:layout_x="35dp"
+            android:layout_y="45dp"
+            android:layout_marginTop="51dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:id="@+id/angrybtn"
+            android:src="@drawable/angry"
+            android:layout_x="35dp"
+            android:layout_y="160dp"
+            android:layout_alignBottom="@+id/hbtn"
+            android:layout_alignRight="@+id/ebtn"
+            android:layout_alignEnd="@+id/ebtn" />
+
+
+
+        <ImageButton
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:id="@+id/rbtn"
+            android:src="@drawable/rbtn"
+
+            android:layout_x="35dp"
+            android:layout_y="275dp"
+            android:layout_above="@+id/textView34"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+        <ImageButton
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:id="@+id/ebtn"
+            android:src="@drawable/exhausted"
+            android:layout_x="205dp"
+            android:layout_y="176dp"
+            android:layout_below="@+id/textView33"
+            android:layout_alignRight="@+id/playfulbtn"
+            android:layout_alignEnd="@+id/playfulbtn" />
+
+
+        <ImageButton
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:id="@+id/playfulbtn"
+            android:src="@drawable/playful"
+            android:layout_x="200dp"
+            android:layout_y="45dp"
+            android:layout_below="@+id/ebtn"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="51dp" />
+
+
+
+
+
+
+        <ImageButton
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sadbtn"
+            android:src="@drawable/sad"
+            android:layout_x="209dp"
+            android:layout_y="286dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/playfulbtn"
+            android:layout_alignRight="@+id/textView36"
+            android:layout_alignEnd="@+id/textView36" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="CHOOSE YOUR FEELING"
+            android:gravity="center"
+            android:id="@+id/textView31"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_x="0dp"
+            android:layout_y="-1dp"
+            android:textColor="#000000"
+            android:background="#E6E4E5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EXHAUSTED"
+            android:gravity="center"
+            android:id="@+id/textView35"
+            android:layout_below="@+id/ebtn"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_x="207dp"
+            android:layout_y="255dp"
+            android:background="#E6E4E5"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:text="PLAYFUL"
+            android:gravity="center"
+            android:id="@+id/textView37"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/playfulbtn"
+            android:layout_alignLeft="@+id/textView33"
+            android:layout_alignStart="@+id/textView33"
+            android:layout_x="205dp"
+            android:layout_y="135dp"
+            android:background="#E6E4E5"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:text="HAPPY"
+            android:gravity="center"
+            android:id="@+id/textView32"
+            android:layout_below="@+id/scrollView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="74dp"
+            android:layout_marginStart="74dp"
+            android:layout_x="39dp"
+            android:layout_y="130dp"
+            android:background="#E6E4E5"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:text="ANGRY"
+            android:gravity="center"
+            android:id="@+id/textView33"
+            android:layout_below="@+id/scrollView"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="68dp"
+            android:layout_marginEnd="68dp"
+            android:layout_x="39dp"
+            android:layout_y="245dp"
+            android:background="#E6E4E5"
+            android:textColor="#000000" />
+
+
+        <TextView
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:text="SAD"
+            android:gravity="center"
+            android:id="@+id/textView36"
+            android:layout_x="207dp"
+            android:layout_y="365dp"
+            android:layout_marginRight="56dp"
+            android:layout_marginEnd="56dp"
+            android:layout_below="@+id/scrollView"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="#E6E4E5"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="RELAXED"
+            android:gravity="center"
+            android:id="@+id/textView34"
+            android:layout_x="38dp"
+            android:layout_y="361dp"
+            android:layout_below="@+id/scrollView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="41dp"
+            android:layout_marginStart="41dp"
+            android:background="#E6E4E5"
+            android:textColor="#000000" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="ABOUT"
+            android:id="@+id/abtbtn"
+            android:gravity="center"
+            android:layout_x="138dp"
+            android:layout_y="402dp"
+            android:background="#9da4da" />
+    </AbsoluteLayout>
+    </ScrollView>
+</RelativeLayout>

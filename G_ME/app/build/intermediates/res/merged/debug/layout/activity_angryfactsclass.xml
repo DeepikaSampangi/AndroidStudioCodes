@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.deepika.sampangi.g_me.angryfactsclass"
+    android:nestedScrollingEnabled="true"
+    android:background="@drawable/intfacts">
+
+
+
+
+
+
+
+
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView3"
+            >
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <ViewFlipper
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/viewFlipper3"
+    android:layout_gravity="center"
+    android:layout_alignParentTop="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" 	At first, knowing how best to act is difficult, but in time the emotion of anger can drive us to create something innovated to solve a problem.        "
+        android:id="@+id/textView22"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_above="@+id/links1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_dropdownitem_icon_width"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="	In an argument, one person can defeat the mounting anger with a joke.
+
+
+     "
+        android:id="@+id/textView23"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_above="@+id/links1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_dropdownitem_icon_width"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="	Uncontrolled anger and angry outbursts are linked to stroke and heart attack.
+
+
+
+"
+        android:id="@+id/textView24"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_above="@+id/links1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_dropdownitem_icon_width"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="	Anger teaches us about our ability to cope
+
+
+"
+        android:id="@+id/textView25"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_above="@+id/links1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_dropdownitem_icon_width"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="
+
+     The “fight or flight” system engages as we decide how best to deal with our anger.
+
+"
+
+
+        android:id="@+id/textView15"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_above="@+id/links1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_dropdownitem_icon_width"
+         />
+
+</ViewFlipper>
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MORE FACTS"
+        android:id="@+id/links1"
+        android:onClick="browserfacts2"
+        android:background="@android:color/background_light"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="61dp" />
+
+
+</RelativeLayout>
+        </ScrollView>
+
+</RelativeLayout>

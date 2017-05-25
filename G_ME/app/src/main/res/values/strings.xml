@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">G-ME</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_happy">happy</string>
+    <string name="title_activity_relaxed">relaxed</string>
+    <string name="title_activity_exhausted">exhausted</string>
+    <string name="title_activity_self_time">SelfTime</string>
+    <string name="title_activity_poke_frnd">PokeFrnd</string>
+    <string name="title_activity_hintrst_facts">HIntrstFacts</string>
+    <string name="title_activity_shopping">Shopping</string>
+    <string name="title_activity_set_goals">SetGoals</string>
+    <string name="title_activity_rintrst_facts">RIntrstFacts</string>
+    <string name="title_activity_music">Music</string>
+    <string name="title_activity_food">Food</string>
+    <string name="title_activity_excercise">Excercise</string>
+    <string name="title_activity_playfulclass">playfulclass</string>
+    <string name="title_activity_moreplayful">moreplayful</string>
+    <string name="title_activity_comedyshows">comedyshows</string>
+    <string name="title_activity_playfulfacts">playfulfacts</string>
+    <string name="title_activity_angryclass">angryclass</string>
+    <string name="title_activity_helpme1class">helpme1class</string>
+    <string name="title_activity_hangoutclass">hangoutclass</string>
+
+
+    <string-array name="comedy_shows">
+        <item>International</item>
+        <item>Indian</item>
+    </string-array>
+
+    <string-array name="comedy_inter">
+        <item>The Big Bang Theory</item>
+        <item>Two and a Half Men</item>
+        <item>Shameless</item>
+        <item>F.R.I.E.N.D.S</item>
+        <item>Just for laughs gags</item>
+    </string-array>
+
+    <string-array name="comedy_ind">
+        <item>Comedy Nights With Kapil</item>
+        <item>Great Indian Comedy Show</item>
+        <item>Comedy Circus</item>
+        <item>Jabardasth</item>
+    </string-array>
+    <string name="title_activity_to_do">To_do</string>
+    <string name="title_activity_about">About</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item1"
+        android:title="Asian Shiva ganga theatre"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title=" Mega theatre"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="konark theatre"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="Chandana Brothers "/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="Adidas"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="Jeans Corner"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title="Taruni "/>
+
+    <item
+        android:id="@+id/item8"
+        android:title="RS brothers"/>
+
+    <item
+        android:id="@+id/item9"
+        android:title="Swagath Restuarant"/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="Green Leaves Hotel"/>
+
+
+
+</menu>

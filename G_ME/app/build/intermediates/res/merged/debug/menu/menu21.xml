@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item1"
+        android:title="CAFÉ COFFEE DAY"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="INNOVATIVE MULTIPLEX"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title=" GOLCONDA BIRYANI HOUSE"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title=" THE CHOCOLATE FACTORY"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title=" ETCETERA COFFEE HOUSE"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="ZIPPYZIGGY"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title="LAMBRETTA CLOTHING"/>
+
+    <item
+        android:id="@+id/item8"
+        android:title="SUPER FINE BAKERY AND COOL DRINKS"/>
+
+    <item
+        android:id="@+id/item9"
+        android:title="AW RESTAURANTS"/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="SWEET CAFÉ"/>
+
+
+</menu>

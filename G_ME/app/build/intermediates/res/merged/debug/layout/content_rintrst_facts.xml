@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.deepika.sampangi.g_me.RIntrstFacts"
+    tools:showIn="@layout/activity_rintrst_facts"
+    android:background="@drawable/intfacts">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <AbsoluteLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+    <ViewFlipper
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewFlipperR"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/rf3"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="47dp"
+            android:src="@drawable/rf3" />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/rf4"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="47dp"
+            android:src="@drawable/rf4" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/rf0"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="47dp"
+            android:src="@drawable/rf0" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/rf1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="47dp"
+            android:src="@drawable/rf1" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/rf2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="47dp"
+            android:src="@drawable/rf2"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="
+            *For many people, listening to relaxing music can be enough to lower significant levels of stress
+
+            *When a group of 100 people were polled regarding their relaxation habits, 40% reported that they never purposefully set aside time for relaxation
+
+            *Relaxation is though to be categorized into three different types: mental, physical, and transcendental
+            "
+            android:id="@+id/textView17"
+            android:gravity="center"
+            android:background="#d1e4f1"
+            android:layout_below="@+id/viewFlipper"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="bottom" />
+
+
+    </ViewFlipper>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="know facts"
+                android:gravity="center"
+                android:id="@+id/rintfacts"
+                android:layout_x="125dp"
+                android:layout_y="350dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="CLICK TO FLIP"
+                android:gravity="center"
+                android:id="@+id/textView78"
+                android:layout_x="-1dp"
+                android:layout_y="303dp"
+                android:textColor="#ffffff" />
+
+
+        </AbsoluteLayout>
+
+    </ScrollView>
+
+</LinearLayout>

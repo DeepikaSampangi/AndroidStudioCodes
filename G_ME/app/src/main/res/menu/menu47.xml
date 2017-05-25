@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item1"
+        android:title=" Indian national theatre"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="Reebok"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="Vi Kingz Store"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="MEGAMART "/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="Peter England"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title="Shades Restaurant"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title="Papaji Da Dhaba"/>
+
+    <item
+        android:id="@+id/item8"
+        android:title="Domino's Pizza"/>
+
+    <item
+        android:id="@+id/item9"
+        android:title="Bakers Q"/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="Cafe Coffee Day"/>
+
+
+
+</menu>

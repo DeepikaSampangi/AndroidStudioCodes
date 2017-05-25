@@ -1,0 +1,262 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:2:1-216:12
+	package
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:5:5-214:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.1] C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:9:9-35
+	android:allowBackup
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:10:9-40
+activity#com.deepika.sampangi.g_me.Splash
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:13:9-18:20
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:13:19-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:14:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:15:17-68
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:16:17-76
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.deepika.sampangi.g_me.MainActivity
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:21:9-30:20
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:23:13-45
+	android:theme
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:24:13-56
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:22:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:25:13-29:29
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:28:17-76
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:28:27-73
+activity#com.deepika.sampangi.g_me.happy
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:32:9-41:20
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:34:13-43
+	android:theme
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:35:13-56
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:33:13-34
+activity#com.deepika.sampangi.g_me.relaxed
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:42:9-51:20
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:44:13-45
+	android:theme
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:45:13-56
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:43:13-36
+activity#com.deepika.sampangi.g_me.exhausted
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:52:9-61:20
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:54:13-47
+	android:theme
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:55:13-56
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:53:13-38
+activity#com.deepika.sampangi.g_me.SelfTime
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:62:9-65:59
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:64:13-53
+	android:theme
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:65:13-56
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:63:13-37
+activity#com.deepika.sampangi.g_me.PokeFrnd
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:66:9-69:59
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:68:13-45
+	android:theme
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:69:13-56
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:67:13-37
+activity#com.deepika.sampangi.g_me.HIntrstFacts
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:70:9-73:59
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:72:13-46
+	android:theme
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:73:13-56
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:71:13-41
+activity#com.deepika.sampangi.g_me.Shopping
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:74:9-77:59
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:76:13-33
+	android:theme
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:77:13-56
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:75:13-37
+activity#com.deepika.sampangi.g_me.SetGoals
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:78:9-81:59
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:80:13-38
+	android:theme
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:81:13-56
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:79:13-37
+activity#com.deepika.sampangi.g_me.RIntrstFacts
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:82:9-85:59
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:84:13-46
+	android:theme
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:85:13-56
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:83:13-41
+activity#com.deepika.sampangi.g_me.Music
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:86:9-89:59
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:88:13-34
+	android:theme
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:89:13-56
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:87:13-34
+activity#com.deepika.sampangi.g_me.Food
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:90:9-93:59
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:92:13-33
+	android:theme
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:93:13-56
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:91:13-33
+activity#com.deepika.sampangi.g_me.Excercise
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:94:9-97:59
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:96:13-38
+	android:theme
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:97:13-56
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:95:13-38
+activity#com.deepika.sampangi.g_me.playfulclass
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:98:9-101:59
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:100:13-41
+	android:theme
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:101:13-56
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:99:13-41
+activity#com.deepika.sampangi.g_me.moreplayful
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:109:9-112:59
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:111:13-45
+	android:theme
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:112:13-56
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:110:13-40
+activity#com.deepika.sampangi.g_me.playfulfacts
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:120:9-123:59
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:122:13-58
+	android:theme
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:123:13-56
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:121:13-41
+activity#com.deepika.sampangi.g_me.angryclass
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:124:9-126:51
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:126:13-39
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:125:13-39
+activity#com.deepika.sampangi.g_me.helpme1class
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:134:9-136:39
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:136:13-36
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:135:13-41
+activity#com.deepika.sampangi.g_me.calmclass
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:144:9-146:48
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:146:13-45
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:145:13-38
+activity#com.deepika.sampangi.g_me.angryfactsclass
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:154:9-156:59
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:156:13-56
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:155:13-44
+activity#com.deepika.sampangi.g_me.sadclass
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:164:9-166:40
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:166:13-37
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:165:13-37
+activity#com.deepika.sampangi.g_me.sadhelpclass
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:174:9-176:48
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:176:13-45
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:175:13-41
+activity#com.deepika.sampangi.g_me.sadfactsclass
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:184:9-186:50
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:186:13-47
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:185:13-42
+activity#com.deepika.sampangi.g_me.Hangout
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:194:9-201:20
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:195:13-38
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:194:19-42
+activity#com.deepika.sampangi.g_me.To_do
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:202:9-205:59
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:204:13-54
+	android:theme
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:205:13-56
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:203:13-34
+activity#com.deepika.sampangi.g_me.About
+ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:206:9-213:20
+	android:label
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:208:13-57
+	android:theme
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:209:13-56
+	android:name
+		ADDED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml:207:13-34
+uses-sdk
+INJECTED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.1] C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Lenovo\AndroidStudioProjects\G_ME_FINAL\app\src\main\AndroidManifest.xml

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item1"
+        android:title="THE CHOCOLATE ROOM"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="CINEPOLIS, PVR CINEMAS"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="CHAITANYA FOOD COURT"/>
+
+
+    <item
+        android:id="@+id/item4"
+        android:title="CHENNAI SHOPPING MALL"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="CAFÉ COFFEE DAY"/>
+
+    <item
+        android:id="@+id/item6"
+        android:title=" CHUTNEYS"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title="KFC"/>
+
+    <item
+        android:id="@+id/item8"
+        android:title=" CREAM STONE"/>
+
+    <item
+        android:id="@+id/item9"
+        android:title="SOUTH INDIA SHOPPING MALL"/>
+
+    <item
+        android:id="@+id/item10"
+        android:title="US PIZZA"/>
+
+
+
+</menu>
